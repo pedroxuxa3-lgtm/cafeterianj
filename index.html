@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cafeteria | NJ</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte Google Fonts para uma tipografia elegante -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- CABEÇALHO / NAVEGAÇÃO -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">cotaria<span>&</span>Nj</a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active"></a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#menu">Cardápio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#reserva" class="btn btn-primary nav-btn">Reservar Mesa</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (Destaque Principal) -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="badge">Sabor Artesanal</span>
+            <h1>Momentos especiais pedem um café inesquecível.</h1>
+            <p>Cafés especiais moídos na hora, pães artesanais e sobremesas feitas com amor e ingredientes selecionados.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Ver Cardápio</a>
+                <a href="#sobre" class="btn btn-secondary">Conhecer o Café</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE NÓS -->
+    <section id="sobre" class="section sobre">
+        <div class="container sobre-grid">
+            <div class="sobre-img">
+                <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80" alt="Interior do café com ambiente aconchegante">
+            </div>
+            <div class="sobre-text">
+                <h2>A Nossa História</h2>
+                <span class="subtitle">Tradição & Paixão pelo Café</span>
+                <p>Fundado em 2018, o Aroma & Sabor nasceu do sonho de criar um refúgio acolhedor no meio da agitação urbana. Cada grão é cuidadosamente selecionado de produtores locais para garantir uma experiência sensorial única.</p>
+                <p>Seja para um café da manhã sem pressa, uma reunião de trabalho ou um encontro à tarde, nosso espaço foi desenhado para fazer você se sentir em casa.</p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <strong>100% Arábica</strong>
+                        <span>Grãos de alta qualidade</span>
+                    </div>
+                    <div class="feature-item">
+                        <strong>Artesanal</strong>
+                        <span>Receitas exclusivas da casa</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARDÁPIO EM DESTAQUE -->
+    <section id="menu" class="section menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nosso Cardápio</h2>
+                <p>Descubra os nossos favoritos mais pedidos</p>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Item 1 -->
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Espresso Especial">
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Espresso Especial</h3>
+                            <span class="price">R$ 12,00</span>
+                        </div>
+                        <p>Extração perfeita de grãos selecionados com notas de chocolate amargo e nozes.</p>
+                    </div>
+                </article>
+
+                <!-- Item 2 -->
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80" alt="Cappuccino Italiano">
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Cappuccino Italiano</h3>
+                            <span class="price">R$ 15,00</span>
+                        </div>
+                        <p>Espresso, leite vaporizado e uma cremosa camada de espuma de leite com canela.</p>
+                    </div>
+                </article>
+
+                <!-- Item 3 -->
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80" alt="Croissant Folhado">
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Croissant de Manteiga</h3>
+                            <span class="price">R$ 10,00</span>
+                        </div>
+                        <p>Receita tradicional francesa, crocante por fora e incrivelmente macio por dentro.</p>
+                    </div>
+                </article>
+
+                <!-- Item 4 -->
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="Toast de Abacate com Ovo">
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Toast de Avocado</h3>
+                            <span class="price">R$ 28,00</span>
+                        </div>
+                        <p>Pão de fermentação natural, creme de abacate, ovo pochê e sementes tostadas.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer id="contato" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <a href="#" class="logo text-white">Cafetaria <span>&</span> Nj</a>
+                <p>Seu ponto de encontro diário com o bom café e a boa gastronomia.</p>
+            </div>
+            <div class="footer-hours">
+                <h4>Horário de Funcionamento</h4>
+                <p>Segunda a Sexta: 07h às 22h</p>
+                <p>Sábado e Domingo: 08h às 19h</p>
+            </div>
+            <div class="footer-location">
+                <h4>Localização</h4>
+                <p>Rua dos Cafezais, 123 - Centro</p>
+                <p>Contato: (11) 99999-8697</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 nossa cafetaria Café. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amigos e cafe | Café & lulas</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte Google Fonts para uma tipografia elegante -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- CABEÇALHO / NAVEGAÇÃO -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">cafetaria <span>&</span> Nj</a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#menu">Cardápio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#reserva" class="btn btn-primary nav-btn">Reservar Mesa</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (Destaque Principal) -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="badge">Sabor Artesanal</span>
+            <h1>Momentos especiais pedem um café inesquecível.</h1>
+            <p>Cafés especiais moídos na hora, pães artesanais e sobremesas feitas com amor e ingredientes selecionados.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Ver Cardápio</a>
+                <a href="#sobre" class="btn btn-secondary">Conhecer o Café</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE NÓS -->
+    <section id="sobre" class="section sobre">
+        <div class="container sobre-grid">
+            <div class="sobre-img">
+                <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80" alt="Interior do café com ambiente aconchegante">
+            </div>
+            <div class="sobre-text">
+                <h2>A Nossa História</h2>
+                <span class="subtitle">Tradição & Paixão pelo Café</span>
+                <p>Fundado em 2018, o cafetaria nj nasceu do sonho de criar um refúgio acolhedor no meio da agitação urbana. Cada grão é cuidadosamente selecionado de produtores locais para garantir uma experiência sensorial única.</p>
+                <p>Seja para um café da manhã sem pressa, uma reunião de trabalho ou um encontro à tarde, nosso espaço foi desenhado para fazer você se sentir em casa.</p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <strong>100% Arábica</strong>
+                        <span>Grãos de alta quality</span>
+                    </div>
+                    <div class="feature-item">
+                        <strong>Artesanal</strong>
+                        <span>Receitas exclusivas da house</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARDÁPIO EM DESTAQUE -->
+    <section id="menu" class="section menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nosso Cardápio</h2>
+                <p>Descubra os nossos favoritos mais pedidos</p>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Item 1 -->
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Espresso Especial">
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Espresso Especial</h3>
+                            <span class="price">R$ 12,00</span>
+                        </div>
+                        <p>Extração perfeita de grãos selecionados com notas de chocolate amargo e nozes.</p>
+                    </div>
+                </article>
+
+                <!-- Item 2 -->
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80" alt="Cappuccino Italiano">
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Cappuccino Italiano</h3>
+                            <span class="price">R$ 16,50</span>
+                        </div>
+                        <p>Espresso, leite vaporizado e uma cremosa camada de espuma de leite com canela.</p>
+                    </div>
+                </article>
+
+                <!-- Item 3 -->
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80" alt="Croissant Folhado">
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Croissant de Manteiga</h3>
+                            <span class="price">R$ 14,00</span>
+                        </div>
+                        <p>Receita tradicional francesa, crocante por fora e incrivelmente macio por dentro.</p>
+                    </div>
+                </article>
+
+                <!-- Item 4 -->
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="Toast de Abacate com Ovo">
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Toast de Avocado</h3>
+                            <span class="price">R$ 24,00</span>
+                        </div>
+                        <p>Pão de fermentação natural, creme de abacate, ovo pochê e sementes tostadas.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer id="contato" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <a href="#" class="logo text-white">Aroma <span>&</span> Sabor</a>
+                <p>Seu ponto de encontro diário com o bom café e a boa gastronomia.</p>
+            </div>
+            <div class="footer-hours">
+                <h4>Horário de Funcionamento</h4>
+                <p>Segunda a Sexta: 07h às 20h</p>
+                <p>Sábado e Domingo: 08h às 18h</p>
+            </div>
+            <div class="footer-location">
+                <h4>Localização</h4>
+                <p>Rua dos Cafezais, 123 - Centro</p>
+                <p>Contato: (11) 99999-8888</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aroma & Sabor Café. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html> 
